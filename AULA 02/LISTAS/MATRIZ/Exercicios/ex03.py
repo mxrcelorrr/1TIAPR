@@ -12,4 +12,5 @@ for j in range(len(matriz[0])):
         linha.append(matriz[i][j])
     transposta.append(linha)
 
-print (transposta)
+for linha in transposta:
+    print (linha)
